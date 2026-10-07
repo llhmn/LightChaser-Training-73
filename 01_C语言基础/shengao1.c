@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+    printf("?????????????");
+    int foot,inch;
+    scanf("%d %d", &foot,&inch);
+    printf("?????%f??",(foot+inch/12)*0.3048);
+    return 0;
+}
